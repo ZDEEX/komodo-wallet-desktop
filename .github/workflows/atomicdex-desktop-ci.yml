@@ -5,10 +5,7 @@ on:
     types: [ opened, synchronize, reopened ]
   push:
     branches:
-      - master
-  schedule:
-    - cron: '0 0 * * 1'
-  workflow_dispatch:
+      - dev
 
 env:
   DEX_API: "kdf_kwd"
